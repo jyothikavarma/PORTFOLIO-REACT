@@ -1,0 +1,27 @@
+.profile {
+    text-align: center;
+    padding: 50px;
+  
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .Forimg{
+    background-image: url(../../public/images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  h3.jyo{
+    margin-top: -50px;
+  }
+  

@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  
+    ul {
+      display: flex;
+      list-style: none;
+  
+      li {
+        margin-left: 20px;
+  
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  

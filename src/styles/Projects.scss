@@ -1,0 +1,26 @@
+.projects {
+    padding: 50px;
+    text-align: center;
+    background-image: url(../../public/images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    
+  
+    .projects-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  
+      .project-card {
+        background-color: #f4f4f4;
+        padding: 20px;
+        margin: 15px;
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+    }
+  }
+  

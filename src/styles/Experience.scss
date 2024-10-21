@@ -1,0 +1,21 @@
+.experience {
+    padding: 50px;
+    text-align: center;
+    background-image: url(../../public/images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+  
+    ul {
+      list-style: none;
+  
+      li {
+        margin-bottom: 20px;
+        h3 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  
